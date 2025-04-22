@@ -1,0 +1,29 @@
+    1  git config --global user.name "KochergaI"
+    2  git config --global user.email kocherga.illya22@gmail.com
+    3  git clone https://github.com/KochergaI/HW_10.git
+    4  touch text_ignore.txt
+    5  rm text_ignore.txt
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  nano text_ignore.txt
+    9  git status
+   10  git add text_ignore.txt
+   11  git add text_ignore.txt
+   12  git commit -m "text_ignored created"
+   13  touch main_test.txt
+   14  git add
+   15  git add main_test.txt
+   16  git commit -m "main_test created"
+   17  git checkout -b developer
+   18  git checkout developer
+   19  touch developer_test.txt
+   20  nano developer_test.txt
+   21  git status
+   22  git add developer_test.txt
+   23  git add developer_test.txt
+   24  git commit -m "develop_test created"
+   25  git checkout main
+   26  git merge develop
+   27  git merge developer
+   28  git log
+   29  history > command_list.csv
